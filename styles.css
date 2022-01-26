@@ -1,0 +1,590 @@
+@media only screen and (max-width: 600px) {
+    .title {
+        font-size: 3rem;
+    }
+    .header {
+        color: #EF7A85;
+        font-family: cursive;
+        position: relative;
+        text-align: center;
+    }
+    body {
+        background-color: #ffc2e2;
+    }
+    .line {
+        text-decoration: auto;
+        color: #a9ffcb;
+    }
+    .easy {
+        color: #B892FF;
+    }
+    .easyButton {
+        background-color: #EF7A85;
+        color: #6E44FF;
+    }
+    .medium {
+        color: #B892FF;
+    }
+    .mediumButton {
+        background-color: #EF7A85;
+        color: #6E44FF;
+    }
+    .hard {
+        color: #B892FF;
+    }
+    .hardButton {
+        background-color: #EF7A85;
+        color: #6E44FF;
+    }
+    .guess {
+        color: #EF7A85;
+        background-color: #6E44FF;
+        width: 10rem;
+        height: 10rem;
+    }
+    .hrGuessNum {
+        border-top: 10px solid #EF7A85;
+        position: relative;
+        top: -3rem;
+        /* left: rem; */
+        width: 100%;
+        margin: auto;
+    }
+    .chooseNumIntro {
+        position: relative;
+        top: 16rem;
+        left: 10rem;
+        padding: 0;
+        margin: 0;
+        font-size: 1.5rem;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        color: #B892FF;
+    }
+    /* Top part */
+    .againButton {
+        height: 5rem;
+        width: 5rem;
+        padding: 0;
+        position: relative;
+        top: 7rem;
+        left: 10rem;
+        background-color: #EF7A85;
+        color: #6E44FF;
+        font-size: large;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    .mysteryBox {
+        background-color: #EF7A85;
+        width: 10rem;
+        height: 10rem;
+        position: relative;
+        top: -3rem;
+        left: 8.24rem;
+        padding: 0;
+        margin: auto;
+        color: #B892FF;
+        font-size: 10rem;
+        text-align: center;
+    }
+    /* diff Level Choice */
+    .diffLevel1 {
+        color: #6E44FF;
+        position: relative;
+        top: -17rem;
+        left: 3rem;
+        font-size: 1.5rem;
+        align-content: space-between
+    }
+    .diffLevel2 {
+        color: #6E44FF;
+        position: relative;
+        top: -18rem;
+        left: 3rem;
+        font-size: 1.5rem;
+        align-content: space-between
+    }
+    .hmOfDiffLevel {
+        color: #6E44FF;
+        position: relative;
+        top: -19rem;
+        left: 3rem;
+        font-size: 1.5rem;
+        align-content: space-between
+    }
+    /* bottom left side*/
+    input,
+    input {
+        font-size: 8rem;
+        font-family: inherit;
+        color: inherit;
+        display: block;
+        position: absolute;
+        top: 17rem;
+        left: 1rem;
+    }
+    .checkButton {
+        position: absolute;
+        top: 26rem;
+        width: 168px;
+        height: 3rem;
+        left: 1rem;
+        background-color: #B892FF;
+        color: #ffc2e2;
+    }
+    .chooseYour {
+        position: absolute;
+        top: -30rem;
+        color: #B892FF;
+        left: -8rem;
+        margin: 0;
+        padding: 0;
+    }
+    .numberOfChoose {
+        position: absolute;
+        left: -7rem;
+        top: -28rem;
+    }
+    .main {
+        padding: 0;
+        margin: 0;
+        position: relative;
+        height: 1rem;
+    }
+    head,
+    body {
+        margin: 0;
+    }
+    /*Bottom Right  */
+    .goForIt {
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color: #6E44FF;
+        font-size: 2rem;
+        position: relative;
+        top: -15rem;
+        left: 15rem;
+        align-content: center;
+        flex-basis: 1rem;
+        max-width: 15rem;
+    }
+    section {
+        padding: 0;
+    }
+    .highScore {
+        font-size: 2.5rem;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        color: #EF7A85;
+        position: relative;
+        top: -16rem;
+        left: 15rem;
+        /* align-content: center; */
+    }
+    .highScoreBox {
+        background-color: #B892FF;
+        width: 10rem;
+        position: relative;
+        top: -15rem;
+        height: 10rem;
+        left: 15rem;
+        color: #EF7A85;
+        font-size: 8rem;
+        text-align: center;
+    }
+}
+
+
+/* small screen */
+
+@media (min-width: 759px) {
+    .title {
+        font-size: 3rem;
+    }
+    .header {
+        color: #EF7A85;
+        font-family: cursive;
+        position: relative;
+        text-align: center;
+    }
+    body {
+        background-color: #ffc2e2;
+    }
+    .line {
+        text-decoration: auto;
+        color: #a9ffcb;
+    }
+    .easy {
+        color: #B892FF;
+    }
+    .easyButton {
+        background-color: #EF7A85;
+        color: #6E44FF;
+    }
+    .medium {
+        color: #B892FF;
+    }
+    .mediumButton {
+        background-color: #EF7A85;
+        color: #6E44FF;
+    }
+    .hard {
+        color: #B892FF;
+    }
+    .hardButton {
+        background-color: #EF7A85;
+        color: #6E44FF;
+    }
+    .guess {
+        color: #EF7A85;
+        background-color: #6E44FF;
+        width: 10rem;
+        height: 10rem;
+    }
+    .hrGuessNum {
+        border-top: 10px solid #EF7A85;
+        position: relative;
+        top: -3rem;
+        /* left: rem; */
+        width: 100%;
+        margin: auto;
+    }
+    .chooseNumIntro {
+        position: relative;
+        top: 16rem;
+        left: 10rem;
+        padding: 0;
+        margin: 0;
+        font-size: 1.5rem;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        color: #B892FF;
+    }
+    /* bottom left side*/
+    input,
+    input {
+        font-size: 8rem;
+        font-family: inherit;
+        color: inherit;
+        display: block;
+        position: absolute;
+        top: 19rem;
+        left: 8rem;
+    }
+    .checkButton {
+        position: absolute;
+        top: 29rem;
+        width: 168px;
+        height: 3rem;
+        left: 8rem;
+        background-color: #B892FF;
+        color: #ffc2e2;
+    }
+    .chooseYour {
+        position: absolute;
+        top: -31rem;
+        color: #B892FF;
+        left: -1rem;
+        margin: 0;
+        padding: 0;
+    }
+    .numberOfChoose {
+        position: absolute;
+        left: 0rem;
+        top: -29rem;
+    }
+    .main {
+        padding: 0;
+        margin: 0;
+        position: relative;
+        height: 1rem;
+    }
+    head,
+    body {
+        margin: 0;
+    }
+    /* Top part */
+    .againButton {
+        height: 5rem;
+        width: 5rem;
+        padding: 0;
+        position: relative;
+        top: 3rem;
+        left: 2rem;
+        background-color: #EF7A85;
+        color: #6E44FF;
+        font-size: large;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    .mysteryBox {
+        background-color: #EF7A85;
+        width: 10rem;
+        height: 10rem;
+        position: relative;
+        top: -3rem;
+        padding: 0;
+        margin: auto;
+        color: #B892FF;
+        font-size: 10rem;
+        text-align: center;
+    }
+    /* diff Level Choice */
+    .diffLevel1 {
+        color: #6E44FF;
+        position: absolute;
+        top: 0rem;
+        left: 30rem;
+        font-size: 2rem;
+        align-content: space-between
+    }
+    .diffLevel2 {
+        color: #6E44FF;
+        position: relative;
+        top: -13rem;
+        left: 30rem;
+        font-size: 2rem;
+        align-content: space-between
+    }
+    .hmOfDiffLevel {
+        color: #6E44FF;
+        position: relative;
+        top: -16rem;
+        left: 30rem;
+        font-size: 3rem;
+        align-content: space-between
+    }
+    /* .diffLevelSection {
+        color: #6E44FF;
+        position: relative;
+        top: -12rem;
+        left: 28rem;
+    } */
+    /*Bottom Right  */
+    .goForIt {
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color: #6E44FF;
+        font-size: 2rem;
+        position: relative;
+        top: -16rem;
+        left: 30rem;
+        align-content: center;
+        flex-basis: 1rem;
+        max-width: 15rem;
+    }
+    section {
+        padding: 0;
+    }
+    .highScore {
+        font-size: 3rem;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        color: #EF7A85;
+        position: relative;
+        top: -16rem;
+        left: 30rem;
+        /* align-content: center; */
+    }
+    .highScoreBox {
+        background-color: #B892FF;
+        width: 10rem;
+        position: relative;
+        top: -15rem;
+        height: 10rem;
+        left: 30rem;
+        color: #EF7A85;
+        font-size: 8rem;
+        text-align: center;
+    }
+}
+
+
+/* wide screen */
+
+@media(min-width: 800px) {
+    .title {
+        font-size: 3rem;
+    }
+    .header {
+        color: #EF7A85;
+        font-family: cursive;
+        position: relative;
+        text-align: center;
+    }
+    body {
+        background-color: #ffc2e2;
+    }
+    .line {
+        text-decoration: auto;
+        color: #a9ffcb;
+    }
+    .easy {
+        color: #B892FF;
+    }
+    .medium {
+        color: #B892FF;
+    }
+    .hard {
+        color: #B892FF;
+    }
+    /* Buttons */
+    .easyButton {
+        background-color: #EF7A85;
+        color: #6E44FF;
+    }
+    .mediumButton {
+        background-color: #EF7A85;
+        color: #6E44FF;
+    }
+    .hardButton {
+        background-color: #EF7A85;
+        color: #6E44FF;
+    }
+    /*  */
+    .guess {
+        color: #EF7A85;
+        background-color: #6E44FF;
+        width: 10rem;
+        height: 10rem;
+    }
+    /* diff Level Choice */
+    .diffLevel1 {
+        color: #6E44FF;
+        position: absolute;
+        top: 0rem;
+        left: 70rem;
+        font-size: 2rem;
+        align-content: space-between
+    }
+    .diffLevel2 {
+        color: #6E44FF;
+        position: relative;
+        top: -13rem;
+        left: 70rem;
+        font-size: 2rem;
+        align-content: space-between
+    }
+    .hmOfDiffLevel {
+        color: #6E44FF;
+        position: relative;
+        top: -16rem;
+        left: 70rem;
+        font-size: 3rem;
+        align-content: space-between
+    }
+    /* bottom left side*/
+    .chooseYour {
+        position: relative;
+        top: -32rem;
+        color: #B892FF;
+        left: 10.2rem;
+        margin: 0;
+        padding: 0;
+    }
+    .numberOfChoose {
+        position: relative;
+        left: 2rem;
+        top: -30rem;
+    }
+    input,
+    input {
+        font-size: 8rem;
+        font-family: inherit;
+        color: inherit;
+        display: block;
+        position: relative;
+        top: -13rem;
+        left: 20rem;
+    }
+    .checkButton {
+        position: relative;
+        top: -14rem;
+        width: 168px;
+        height: 3rem;
+        left: 20rem;
+        background-color: #B892FF;
+        color: #ffc2e2;
+    }
+    .chooseNumIntro {
+        position: relative;
+        top: 16rem;
+        left: 10rem;
+        padding: 0;
+        margin: 0;
+        font-size: 1.5rem;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        color: #B892FF;
+    }
+    /* Mid Section */
+    .hrGuessNum {
+        border-top: 10px solid #EF7A85;
+        position: relative;
+        top: -3rem;
+        /* left: rem; */
+        width: 100%;
+        margin: auto;
+    }
+    .mysteryBox {
+        background-color: #EF7A85;
+        width: 10rem;
+        height: 10rem;
+        position: relative;
+        top: -3rem;
+        padding: 0;
+        margin: auto;
+        color: #B892FF;
+        font-size: 10rem;
+        text-align: center;
+    }
+    .againButton {
+        height: 5rem;
+        width: 10rem;
+        padding: 0;
+        position: relative;
+        top: 3rem;
+        left: 20rem;
+        background-color: #EF7A85;
+        color: #6E44FF;
+        font-size: 3rem;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    /*  */
+    .main {
+        padding: 0;
+        margin: 0;
+        position: relative;
+        height: 1rem;
+    }
+    head,
+    body {
+        margin: 0;
+    }
+    section {
+        padding: 0;
+    }
+    /* right side bottom section */
+    .goForIt {
+        font-size: 3rem;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color: #6E44FF;
+        position: relative;
+        top: -35rem;
+        left: 60rem;
+        /* align-content: center; */
+        flex-basis: 50rem;
+        max-width: 15rem;
+    }
+    .highScore {
+        font-size: 3rem;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        color: #EF7A85;
+        position: relative;
+        top: -33rem;
+        left: 60rem;
+    }
+    .highScoreBox {
+        background-color: #B892FF;
+        width: 10rem;
+        position: relative;
+        top: -32.5rem;
+        height: 8rem;
+        left: 60rem;
+        color: #EF7A85;
+        font-size: 8rem;
+        text-align: center;
+    }
+}

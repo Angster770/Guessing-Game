@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guess The Number</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header class="header">
+        <h1 class="title">Can You Guess the Number ?</h1>
+        <span>Choose What number range!</span>
+        <span class="easy">Easy</span> <button class="btn easyButton"> 1 - 20</button>
+        <span class="medium">Medium</span> <button class="mediumButton">1 - 50</button>
+        <span class="hard">Hard</span> <button class="hardButton">1 - 100</button>
+        <hr class="hrHeader">
+
+    </header>
+    <main class="main">
+        <section>
+            <button class="againButton">Again !</button>
+        </section>
+        <section>
+            <div class="mysteryBox">?</div>
+            <hr class="hrGuessNum">
+        </section>
+        <section class="diffLevelSection">
+            <p class="diffLevel1">What Level</p>
+            <p class="diffLevel2">Will You Choose ?</p>
+            <p class="hmOfDiffLevel">hmmm?</p>
+        </section>
+
+        <aside class="left">
+            <section class="chooseNumIntro"> <span class="chooseYour">Choose your</span> <span class="numberOfChoose">number !</span> </section>
+            <input class="guess" type="number">
+            <button class="checkButton">Check Number</button>
+        </aside>
+        <aside>
+            <p class="goForIt">Go for it</p>
+            <span class="highScore">High Score</span>
+            <div class="highScoreBox">0</div>
+        </aside>
+    </main>
+</body>
+<script src="app.js"></script>
+
+</html>
